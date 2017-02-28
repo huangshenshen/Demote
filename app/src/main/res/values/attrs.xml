@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundCenterTxt">
+        <attr name="radius" format="dimension"></attr>
+        <attr name="circleColor" format="color"></attr>
+        <attr name="centerTextSize" format="dimension"></attr>
+        <attr name="mtext" format="string"></attr>
+    </declare-styleable>
+</resources>
