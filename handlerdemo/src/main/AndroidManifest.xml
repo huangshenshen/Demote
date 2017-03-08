@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.project.moli.demo">
+    package="com.project.moli.handlerdemo">
 
     <application
         android:allowBackup="true"
@@ -8,22 +8,14 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Dialog">
+        <activity android:name=".HandlerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Main2Activity" />
 
-        <service
-            android:name=".MyService"
-            android:enabled="true"
-            android:exported="true" />
-
-        <activity android:name=".Dialogactivity"
-            ></activity>
     </application>
 
 </manifest>
